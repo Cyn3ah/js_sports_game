@@ -20,7 +20,7 @@ teamOneShootButton.addEventListener("click", function() {
   
 teamTwoShootButton.addEventListener("click", function() {
    
-    let newTeamTwoShots = Number(teamTwoShootButton.innerHTML) + 1;
+    let newTeamTwoShots = Number(teamTwoShots.innerHTML) + 1;
   
     teamTwoShots.innerHTML = newTeamTwoShots;
 
