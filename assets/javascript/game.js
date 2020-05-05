@@ -35,7 +35,7 @@ teamOneShootButton.addEventListener("click", function() {
     
     teamOneShots.innerHTML = newTeamOneShots;
 
-    let newTeamOneGoals = Number(teamOneGoals.innerHTML) + Math.random(0-1);
+    let newTeamOneGoals = Number(teamOneGoals.innerHTML) + (Math.random() < 0.5);
 
     teamOneGoals.innerHTML = newTeamOneGoals;
 
@@ -47,7 +47,7 @@ teamTwoShootButton.addEventListener("click", function() {
   
     teamTwoShots.innerHTML = newTeamTwoShots;
 
-    let newTeamTwoGoals = Number(teamTwoGoals.innerHTML) + Math.random(0-1);
+    let newTeamTwoGoals = Number(teamTwoGoals.innerHTML) + (Math.random() < 0.5);
 
     teamTwoGoals.innerHTML = newTeamTwoGoals;
 
