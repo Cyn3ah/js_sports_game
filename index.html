@@ -1,60 +1,61 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>JS Game Challenge</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
 
-    <button onclick="snd.play()"> Click Me </button>
-
-    <!-- <script>
-        var snd = new Audio("/Content/mysound.wav"); 
-    </script> -->
-
     <div>
-        <h1>My JS Game</h1>
+        <h1>MBA Freethrow Challenge</h1>
         <div id="reset-container">
-            <button id="reset-button">RESET</button><br>
-            NUMBER OF RESETS: <span id="num-resets">0</span>
+            <button id="reset-button">
+                <h2>RESET</h2>
+            </button><br>
+            <h3>NUMBER OF RESETS: </h3><span id="num-resets">
+                <h2>0</h2>
+            </span>
         </div>
         <div class="clear"></div>
         <div class="left">
-            <h2>
+            <h1>
                 Team 1
-            </h2>
+            </h1>
             <div class="goals">
-                SHOTS TAKEN: <span id="teamone-numshots">0</span><br>
-                GOALS: <span id="teamone-numgoals">0</span>
+                <h2> SHOTS TAKEN: </h2><span id="teamone-numshots">
+                    <h2>0</h2>
+                </span><br>
+                <h2> GOALS: </h2><span id="teamone-numgoals">
+                    <h2>0</h2>
+                </span>
             </div>
             <div>
-                <button id="teamone-shoot-button">SHOOT</button>
-                
-                <!-- <audio
-                controls
-                src="js_sports_game/.wav">
-                    Your browser does not support the
-                    <code>audio</code> element.
-                </audio> --> -->
-
+                <button id="teamone-shoot-button"><b>SHOOT!</b></button></button>
             </div>
         </div>
         <div class="right">
-            <h2>
+            <h1>
                 Team 2
-            </h2>
+            </h1>
             <div class="goals">
-                SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br>
-                GOALS: <span id="teamtwo-numgoals">0</span>
+                <H2> SHOTS TAKEN: </H2><span id="teamtwo-numshots">
+                    <H2>0</H2>
+                </span><br>
+                <H2> GOALS: </H2><span id="teamtwo-numgoals">
+                    <H2>0</H2>
+                </span>
             </div>
             <div>
-                <button id="teamtwo-shoot-button">SHOOT</button>
+                <button id="teamtwo-shoot-button"><b>SHOOT!</b></button>
             </div>
         </div>
         <div class="clear"></div>
     </div>
 
-  <script src="./assets/javascript/game.js"></script>
+    <script src="./assets/javascript/game.js"></script>
 
 </body>
+
 </html>

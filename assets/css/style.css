@@ -1,17 +1,66 @@
 .hide {
     display: none;
 }
-.left {
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+
+}
+.left {  
+    border: black, 6px, solid;  
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    border-radius: 15px 50px;
+    background-color: purple;
     float: left;
 }
 .right {
+    border: black, 6px, solid;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    border-radius: 50px 15px;
+    background-color: blue;
     float: right;
 }
 .clear {
     clear: both;
 }
 #reset-container, h1 {
+    text-size-adjust: 50%;
+    background-color: goldenrod;
+    border: black, 6px, solid;
     text-align: center;
+}
+
+#teamone-shoot-button {
+    float: right;
+    border: black, 6px, solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+
+#teamtwo-shoot-button {
+    float: left;
+    border: black, 6px, solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+
+.goals {
+    text-emphasis: strong;
+}
+
+#reset-button {
+    height: 75px;
+    background-color: yellow;
+    border-radius: 0% 0% 50% 50%;
 }
 
 /* #teamone-shoot-button {
