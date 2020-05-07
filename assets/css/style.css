@@ -29,25 +29,27 @@ body {
     clear: both;
 }
 #reset-container, h1 {
-    text-size-adjust: 50%;
+    /* text-size-adjust: 50%; */
     background-color: goldenrod;
     text-align: center;
 }
 
 #teamone-shoot-button {
+    border: black solid 2px;
     float: right;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: orangered;
+    background-image: url("bball.jpg")
 }
 
 #teamtwo-shoot-button {
-    float: left;
+    border: black solid 2px;
     height: 100px;
     width: 100px;
+    float: left;
     border-radius: 50%;
-    background-color: orangered;
+    background-image: url("bball.jpg");
 }
 
 .goals {
@@ -55,6 +57,7 @@ body {
 }
 
 #reset-button {
+    border: black solid 2px;
     height: 75px;
     background-color: yellow;
     border-radius: 0% 0% 50% 50%;
