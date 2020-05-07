@@ -9,7 +9,7 @@ body {
 }
 
 #teamone-numshots, #teamone-numgoals, #teamtwo-numshots, #teamtwo-numgoals, #num-resets {
-    font-size: 28pt;
+    font-size: 24pt;
 }
 
 .left {
@@ -30,7 +30,7 @@ body {
     border-radius: 38% 38% 0% 0%;
     left: 31.5%;
     top: 225px;
-    border: 10px double red;
+    border: 10px double orangered;
     height: 395px;
     width: 480px;
 }
