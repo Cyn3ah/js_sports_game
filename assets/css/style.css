@@ -61,7 +61,7 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-image: url("bball.jpg");
+    background-image: url("bball_left.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -72,7 +72,7 @@ body {
     width: 100px;
     float: left;
     border-radius: 50%;
-    background-image: url("bball.jpg");
+    background-image: url("bball_right.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
