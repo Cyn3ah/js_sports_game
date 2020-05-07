@@ -13,35 +13,36 @@ body {
 }
 
 .left {
+    padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
     height: 350px;
     width: 350px;
+    border: 10px double goldenrod;
     border-radius: 15px 50px;
     background-color: purple;
     float: left;
 }
 
 .center {
-    /* background-image: url("css/gifs/waiting.gif"); */
-    /* background-repeat: round; */
-    padding-top: 20px;
     background-color: white;
     position: absolute;
     border-radius: 38% 38% 0% 0%;
     left: 31.5%;
-    top: 300px;
+    top: 225px;
     border: 10px double red;
     height: 395px;
     width: 480px;
 }
 
 .right {
+    padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     height: 350px;
     width: 350px;
     border-radius: 50px 15px;
+    border: 10px double white;
     background-color: blue;
     float: right;
 }
@@ -50,7 +51,7 @@ body {
 }
 #reset-container, h1 {
     padding-bottom: 10px;
-    background-color: goldenrod;
+    background-color: silver;
     text-align: center;
     margin-bottom: 2px;
 }
@@ -89,11 +90,9 @@ h2 {
 
 #reset-button {
     box-sizing: border-box;
-    border-bottom: black solid 3px;
-    border-left: black solid 3px;
-    border-right: black solid 3px;
+    border: black solid 2px;
     height: 75px;
-    background-color: yellow;
+    background-color: goldenrod;
     border-radius: 0% 0% 50% 50%;
 }
 
