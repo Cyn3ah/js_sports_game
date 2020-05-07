@@ -10,24 +10,27 @@ let teamTwoShootButton = document.querySelector("#teamtwo-shoot-button");
 let resetButton = document.querySelector("#reset-button");
 let numResets = document.querySelector("#num-resets");
 
+let newNumResets = 0;
+numResets.innerHTML = newNumResets;
+
 resetButton.addEventListener("click", function () {
-
-  let newTeamOneShots = 0;
-  teamOneShots.innerHTML = newTeamOneShots;
-
-  let newTeamOneGoals = 0;
-  teamOneGoals.innerHTML = newTeamOneGoals;
-
-  let newTeamTwoShots = 0;
-  teamTwoShots.innerHTML = newTeamTwoShots;
-
-  let newTeamTwoGoals = 0;
-  teamTwoGoals.innerHTML = newTeamTwoGoals;
 
   let newNumResets = Number(numResets.innerHTML) + 1;
 
   numResets.innerHTML = newNumResets;
 })
+
+let newTeamOneShots = 0;
+teamOneShots.innerHTML = newTeamOneShots;
+
+let newTeamOneGoals = 0;
+teamOneGoals.innerHTML = newTeamOneGoals;
+
+let newTeamTwoShots = 0;
+teamTwoShots.innerHTML = newTeamTwoShots;
+
+let newTeamTwoGoals = 0;
+teamTwoGoals.innerHTML = newTeamTwoGoals;
 
 teamOneShootButton.addEventListener("click", function () {
 

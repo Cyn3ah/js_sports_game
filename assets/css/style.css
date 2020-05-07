@@ -7,8 +7,8 @@ body {
     box-sizing: border-box;
 
 }
-.left {  
-    border: black, 6px, solid;  
+.left { 
+    padding-bottom: 20px;
     text-align: center;
     height: 350px;
     width: 350px;
@@ -17,7 +17,7 @@ body {
     float: left;
 }
 .right {
-    border: black, 6px, solid;
+    padding-bottom: 20px;
     text-align: center;
     height: 350px;
     width: 350px;
@@ -31,13 +31,11 @@ body {
 #reset-container, h1 {
     text-size-adjust: 50%;
     background-color: goldenrod;
-    border: black, 6px, solid;
     text-align: center;
 }
 
 #teamone-shoot-button {
     float: right;
-    border: black, 6px, solid;
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -46,7 +44,6 @@ body {
 
 #teamtwo-shoot-button {
     float: left;
-    border: black, 6px, solid;
     height: 100px;
     width: 100px;
     border-radius: 50%;
