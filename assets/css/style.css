@@ -14,7 +14,7 @@ body {
 
 .left {
     padding-top: 20px;
-    padding-bottom: 10px;
+    /* padding-bottom: 5px; */
     text-align: center;
     height: 350px;
     width: 350px;
@@ -29,7 +29,7 @@ body {
     position: absolute;
     border-radius: 38% 38% 0% 0%;
     left: 31.5%;
-    top: 225px;
+    top: 215px;
     border: 10px double orangered;
     height: 395px;
     width: 480px;
@@ -37,7 +37,7 @@ body {
 
 .right {
     padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-bottom: 5px; */
     text-align: center;
     height: 350px;
     width: 350px;
@@ -54,11 +54,17 @@ body {
     background-color: silver;
     text-align: center;
     margin-bottom: 2px;
+
+}
+
+h1 {
+    border-top: 2.5px solid black;
+    border-bottom: 10px double black;
 }
 
 h2 {
     text-align: center;
-    padding: 2px 0px 0px 0px;
+    /* padding: 2px 0px 0px 0px; */
 }
 
 #teamone-shoot-button {
@@ -68,18 +74,16 @@ h2 {
     width: 100px;
     border-radius: 50%;
     background-image: url("bball_left.jpg");
-    background-repeat: no-repeat;
     background-size: 100%;
 }
 
 #teamtwo-shoot-button {
     border: black solid 2px;
+    float: left;
     height: 100px;
     width: 100px;
-    float: left;
     border-radius: 50%;
     background-image: url("bball_right.jpg");
-    background-repeat: no-repeat;
     background-size: 100%;
 }
 
@@ -90,7 +94,10 @@ h2 {
 
 #reset-button {
     box-sizing: border-box;
-    border: black solid 2px;
+    border-top: black solid .25px;
+    border-left: black solid 2px;
+    border-right: black solid 2px;
+    border-bottom: black solid 2px;
     height: 75px;
     background-color: goldenrod;
     border-radius: 0% 0% 50% 50%;
